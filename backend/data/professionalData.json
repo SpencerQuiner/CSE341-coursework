@@ -1,0 +1,11 @@
+{
+  "professionalName": "John Doe",
+  "base64Image": "<BASE64_IMAGE_HERE>",
+  "nameLink": { "firstName": "John", "url": "https://example.com" },
+  "primaryDescription": "Full Stack Developer",
+  "workDescription1": "Worked on amazing projects.",
+  "workDescription2": "Loves clean code.",
+  "linkTitleText": "Connect with me",
+  "linkedInLink": { "text": "LinkedIn", "link": "https://linkedin.com/in/johndoe" },
+  "githubLink": { "text": "GitHub", "link": "https://github.com/johndoe" }
+}
