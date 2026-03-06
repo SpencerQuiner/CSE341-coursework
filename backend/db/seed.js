@@ -1,5 +1,5 @@
 require('dotenv').config();
-const mongoose = require('mongoose');
+const mongodb = require('mongodb');
 const Professional = require('./professionalModel');
 const connectDB = require('./index');
 

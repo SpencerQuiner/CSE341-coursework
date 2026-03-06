@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
+const { connectDB } = require('./db/index');
 
 const professionalRoutes = require('./routes/professionalRoutes');
 
@@ -12,6 +13,8 @@ app.use(express.json());
 
 app.use('/professional', professionalRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
 });
